@@ -1,0 +1,5 @@
+Flask
+nltk
+Sastrawi
+pandas
+joblib
