@@ -1,4 +1,6 @@
 Flask
+gunicorn
+scikit-learn
 nltk
 Sastrawi
 pandas
