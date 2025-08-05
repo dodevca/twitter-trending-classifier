@@ -9,6 +9,31 @@ This project automates the classification of trending Twitter/X posts to filter 
 
 ---
 
+## Additional Information: Rules in each class
+### Noise
+- Containing sales offers, coupons, vouchers, or "check this link" for advertising or promotional purposes to encourage transactions.
+- Phrases such as "click here!", "don't miss it!", "share if you agree!" without any context.
+- Using trending hashtags but unrelated tweet content, solely to generate engagement.
+- Short URLs (bit.ly, tinyurl, or other short URLs) without explaining the link content.
+- Tagging multiple accounts (@user1 @user2 …) solely for promotional purposes.
+- Tweets simply regurgitate keywords without addressing the topic.
+### Factual
+- Report data or observations using descriptive sentences. For example, "#Grok has been ranked #1 since 8:00 PM."
+- Sentences without opinion or emotion are purely statistical, factual, or informative, and do not contain praise, criticism, or complaints.
+- The structure resembles a news story or official report, usually using formal or semi-formal language.
+- There are no sales pitches, commercial links, or calls to action.
+### Relevant
+- Express likes, dislikes, humor, or personal experiences related to the topic.
+- Include reasons, criticism (positive or negative), or recommendations related to the topic.
+- Contain questions for discussion, for example, "Has anyone attended this event #KonserMalamMinggu? What were your impressions?"
+- Contain personal experiences or field observations presented in the form of a story.
+- Contextual discussions that address the meaning or background of trending topics.
+- Hashtags and mentions are used relevant to the content, not in a mass, unrelated way.
+
+---
+
+---
+
 ## Tech Stack & Tools
 | Category     | Stack                    |
 |--------------|--------------------------|
