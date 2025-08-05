@@ -1,4 +1,4 @@
-# Twitter Trending Classifier - by Dodevca
+# Twitter Trending Classifier
 
 A lightweight tool to classify Twitter/X posts into noise, neutral, and relevant categories using a combination of rule-based logic and Logistic Regression model.
 
